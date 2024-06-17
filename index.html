@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- favicon -->
+  <link rel="shortcut icon" href="assets/favicon/favicon.ico" type="image/x-icon">
+  <!-- css lib -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/animate.min.css">
+  <link rel="stylesheet" href="assets/css/app.css">
+  <link rel="stylesheet" href="assets/css/swiper.css">
+  <link rel="stylesheet" href="assets/css/animate.compat.css">
+  <!-- owl carousel. -->
+  <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+  <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+  <!-- icon -->
+  <link rel="stylesheet" href="assets/fontawsome/all.min.css">
+  <link rel="stylesheet" href="assets/fontawsome/brands.min.css">
+  <link rel="stylesheet" href="assets/fontawsome/fontawesome.min.css">
+  <!-- css Style -->
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+
+  <title>tv+</title>
+</head>
+
+<body>
+  <!-- Nav bar-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top py-0">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        mhmd
+        <img src="assets/images/tv+.png" alt="logo" width="50" height="44">
+      </a>
+      <div class="center med-menu">
+        <ul class="navbar-nav ms-auto med-menu-ul">
+          <li class="nav-item med-menu-li active">
+            <a href="">Home</a>
+          </li>
+          <li class="nav-item med-menu-li">
+            <div class="dropdown">
+              <button class="dropbtn">
+                Catagory <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content" style="left:0;">
+                <a href="#action" class="first-in-dropdown">Action</a>
+                <a href="#">Comedy</a>
+                <a href="#animation" class="last-in-dropdown">Animation</a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item active">
+            <div class="d-inline-flex">
+              <div class="searchbar">
+                <input class="search_input" type="text" name="" placeholder="Search...">
+                <a href="#" class="search_icon"><i class="fa-solid fa-magnifying-glass"></i></a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- carousel -->
+  <header>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" style="background-image: url('assets/images/see.jpg')">
+          <div class="carousel-description TED SEE animate__animated animate__slideInDown">
+            <h1 class="movie-name TED m-0">SEE
+              <br>The Final Season
+            </h1>
+            <p class="description m-0 px-2">After the war
+              <br>The final FIGHT
+            </p>
+            <button class="btn btn-light btn-lg btn-block m-0">Watch Now</button>
+            <p class="payment m-0">7 days Free,then 5.99$ /month</p>
+          </div>
+          <div class="carousel-caption">
+            <!-- you can type here -->
+          </div>
+        </div>
+        <div class="carousel-item" style="background-image: url('assets/images/ted-lason.jpg')">
+          <div class="carousel-description TED animate__animated animate__slideInDown">
+            <h1 class="movie-name TED m-0">TED Lasson
+              <br>Season one
+            </h1>
+            <p class="description m-0 px-2">What happend next for ACL team?
+              <br>Watch the new episodes
+            </p>
+            <button class="btn btn-light btn-lg btn-block m-0">Watch Now</button>
+            <p class="payment m-0">7 days Free,then 5.99$ /month</p>
+          </div>
+          <div class="carousel-caption">
+          </div>
+        </div>
+        <div class="carousel-item" style="background-image: url('assets/images/shrinking.webp')">
+          <div class="carousel-description TED animate__animated animate__slideInDown">
+            <h1 class="movie-name TED m-0">SHRINKiNG
+              <br>
+            </h1>
+            <p class="description m-0 px-2">Alice takes issue with how Jimmy
+              <br>has been living.
+            </p>
+            <button class="btn btn-light btn-lg btn-block m-0">Watch Now</button>
+            <p class="payment m-0">7 days Free,then 5.99$ /month</p>
+          </div>
+          <div class="carousel-caption">
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Page Content -->
+  <!-- animate__backInDown -->
+  <section class="owl-carousel-section py-3">
+    <div class="carousel-container">
+      <div class="carousel-row">
+        <div class="mb-0" data-animate="fadeInDown" data-delay="80">
+          <h4 class="mb-1">Top Chart</h4>
+        </div>
+        <div id="oc-clients-full" class="owl-carousel image-carousel carousel-widget" data-margin="30" data-nav="false"
+          data-loop="false" data-autoplay="5000" data-pagi="false" data-items-xs="2" data-items-sm="3" data-items-md="3"
+          data-items-lg="4" data-items-xl="5">
+          <a href="#"><img src="assets/images/shrinking-small.webp" alt="movie image">
+            <div class="carousel-count">
+              <h1 class="m-0">1</h1>
+              <div class="carousel-count-description">
+                <p class="title m-0">Shrinking</p>
+                <p class="title-descripion m-0">Comedy</p>
+              </div>
+            </div>
+          </a>
+          <a href="#"><img src="assets/images/ted-small.webp" alt="movie image">
+            <div class="carousel-count">
+              <h1 class="m-0">2</h1>
+              <div class="carousel-count-description">
+                <p class="title m-0">Ted Lasson</p>
+                <p class="title-descripion m-0">Comedy</p>
+              </div>
+            </div>
+          </a>
+          <a href="#"><img src="assets/images/blackBird-small-img.webp" alt="movie image">
+            <div class="carousel-count">
+              <h1 class="m-0">3</h1>
+              <div class="carousel-count-description">
+                <p class="title m-0">Black Bird</p>
+                <p class="title-descripion m-0">Action</p>
+              </div>
+            </div>
+          </a>
+          <a href="#"><img src="assets/images/makeOrBreak-small-img.webp" alt="movie image">
+            <div class="carousel-count">
+              <h1 class="m-0">4</h1>
+              <div class="carousel-count-description">
+                <p class="title m-0">Make Or Break</p>
+                <p class="title-descripion m-0">Drama</p>
+              </div>
+            </div>
+          </a>
+          <a href="#"><img src="assets/images/tetris-small-img.webp" alt="movie image">
+            <div class="carousel-count">
+              <h1 class="m-0">5</h1>
+              <div class="carousel-count-description">
+                <p class="title m-0">Tetris</p>
+                <p class="title-descripion m-0">Action</p>
+              </div>
+            </div>
+          </a>
+          <a href="#"><img src="assets/images/theBigDoorPrize-small-img.webp" alt="movie image">
+            <div class="carousel-count">
+              <h1 class="m-0">6</h1>
+              <div class="carousel-count-description">
+                <p class="title m-0">The Bog Door Prize</p>
+                <p class="title-descripion m-0">Comedy</p>
+              </div>
+            </div>
+          </a>
+          <a href="#"><img src="assets/images/ani-theSnoopyShow-small-img.webp" alt="movie img">
+            <div class="carousel-count">
+              <h1 class="m-0">7</h1>
+              <div class="carousel-count-description">
+                <p class="title m-0">The Snooopy Show</p>
+                <p class="title-descripion m-0">Animation</p>
+              </div>
+            </div>
+          </a>
+          <a href="#"><img src="assets/images/ani-blush-small-img.webp" alt="movie">
+            <div class="carousel-count">
+              <h1 class="m-0">8</h1>
+              <div class="carousel-count-description">
+                <p class="title m-0">Blush</p>
+                <p class="title-descripion m-0">Animation</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <hr>
+      </div>
+      <div id="animation" class="carousel-row">
+        <div class="mb-0" data-animate="fadeInDown" data-delay="100">
+          <h4 class="mb-1">Animation</h4>
+        </div>
+        <!-- ///////////////////////////////////////// -->
+        <div id="oc-clients-full" class="owl-carousel image-carousel carousel-widget" data-margin="30" data-nav="false"
+          data-loop="true" data-autoplay="5000" data-pagi="false" data-items-xs="2" data-items-sm="3" data-items-md="3"
+          data-items-lg="4" data-items-xl="5">
+          <a href="#">
+            <div class="item">
+              <img src="assets/images/ani-harriestTheSpy-small-img.webp" alt="movie image">
+            </div>
+          </a>
+          <a href="#"><img src="assets/images/ani-blush-small-img.webp" alt="movie image">
+          </a>
+          <a href="#"><img src="assets/images/ani-harriestTheSpy-small-img.webp" alt="movie image">
+          </a>
+          <a href="#"><img src="assets/images/ani-luck-small-img.webp" alt="movie image">
+          </a>
+          <a href="#"><img src="assets/images/ani-pinecone-small-img.webp" alt="movie image">
+          </a>
+          <a href="#"><img src="assets/images/ani-theSnoopyShow-small-img.webp" alt="movie image">
+          </a>
+          <a href="#"><img src="assets/images/ani-theSnoopyShow-small-img.webp" alt="movie img">
+          </a>
+          <a href="#"><img src="assets/images/ani-blush-small-img.webp" alt="movie">
+          </a>
+        </div>
+        <!-- ///////////////////////////////////////////////// -->
+        <hr>
+      </div>
+      <div id="action" class="carousel-row">
+        <div class="mb-0" data-animate="fadeInDown" data-delay="100">
+          <h4 class="mb-1">Action</h4>
+        </div>
+        <!-- ///////////////////////////////////////// -->
+        <div id="oc-clients-full" class="owl-carousel image-carousel carousel-widget" data-margin="30" data-nav="false"
+          data-loop="false" data-autoplay="5000" data-pagi="false" data-items-xs="2" data-items-sm="3" data-items-md="3"
+          data-items-lg="4" data-items-xl="5">
+          <a href="#">
+            <div class="item">
+              <img src="assets/images/see.jpg" alt="movie image">
+            </div>
+          </a>
+          <a href="#"><img src="assets/images/theBigDoorPrize-small-img.webp" alt="movie image">
+          </a>
+          <a href="#"><img src="assets/images/thBigConn-small-img.webp" alt="movie image">
+          </a>
+          <a href="#"><img src="assets/images/makeOrBreak-small-img.webp" alt="movie image">
+          </a>
+          <a href="#"><img src="assets/images/ani-pinecone-small-img.webp" alt="movie image">
+          </a>
+          <!-- <a href="#"><img src="assets/images/ani-theSnoopyShow-small-img.webp" alt="movie image">
+          </a>
+          <a href="#"><img src="assets/images/ani-theSnoopyShow-small-img.webp" alt="movie img">
+          </a>
+          <a href="#"><img src="assets/images/ani-blush-small-img.webp" alt="movie">
+          </a> -->
+        </div>
+        <!-- ///////////////////////////////////////////////// -->
+        <hr>
+      </div>
+    </div>
+  </section>
+
+  <!-- squid game section -->
+  <section class="squid-game mb-0 p-0">
+    <div class="container">
+      <div class="row squid-game-img-row">
+        <div class="col-6 col-md-4">
+          <img class="square-img" src="assets/images/squid-game/square.png" alt="background-image">
+        </div>
+        <div class="col-6 col-md-4">
+          <img class="triangle-img" src="assets/images/squid-game/triangle.png" alt="background-image">
+        </div>
+        <div class="col-6 col-md-4">
+          <img class="circle-img" src="assets/images/squid-game/circle.png" alt="background-image">
+        </div>
+      </div>
+      <div class="row squid-game-img-row-2">
+        <div class="col-6">
+          <img class="circle-img-2" src="assets/images/squid-game/circle.png" alt="background-image">
+        </div>
+        <div class="col-6">
+          <img class="square-img-2" src="assets/images/squid-game/square.png" alt="background-image">
+        </div>
+      </div>
+    </div>
+    <div class="squid-game-section carousel-container center">
+      <div class="mb-0" data-animate="fadeInDown" data-delay="100">
+        <h1 class="mb-1 squid-game-tilte">Squid Game</h1>
+      </div>
+      <div class="row">
+        <div class="col-5 center">
+          <img class="squid-game-img-poster" src="assets/images/squid-game-book.jpg" alt="">
+        </div>
+        <div class="col-7">
+          <video id="video1" class="squid-game-video mt-2" width="100%" height="300px" autoplay muted controls>
+            <source src="assets/video/Squid Game Season 2.mp4" type="video/mp4">
+          </video>
+          <br>
+          <p class="grayed-p">Squid Game
+            <em>Official Trailer</em>
+          </p>
+        </div>
+      </div>
+      <div class="owl-carousel-section py-1">
+        <div id="oc-clients-full" class="owl-carousel image-carousel carousel-widget" data-margin="30" data-loop="false"
+          data-pagi="false" data-items-xs="2" data-items-sm="3" data-items-md="3" data-items-lg="3" data-items-xl="4">
+          <a href="#" class="squid-game-carousel-a"><img src="assets/images/squid-game/ep-1.webp" alt="movie image">
+            <h3 class="squid-game-ep m-0">Epsoide 1</h3>
+            <h5 class="squid-game-ep-title m-0">Day 0</h5>
+          </a>
+          <a href="#" class="squid-game-carousel-a"><img src="assets/images/squid-game/ep-2.jpg" alt="movie image">
+            <h3 class="squid-game-ep m-0">Epsoide 2</h3>
+            <h5 class="squid-game-ep-title m-0">Red light,Green light</h5>
+          </a>
+          <a href="#" class="squid-game-carousel-a"><img src="assets/images/squid-game/ep-3.jpg" alt="movie image">
+            <h3 class="squid-game-ep m-0">Epsoide 3</h3>
+            <h5 class="squid-game-ep-title m-0">Hell</h5>
+          </a>
+          <a href="#" class="squid-game-carousel-a"><img src="assets/images/squid-game/ep-4.jpg" alt="movie image">
+            <h3 class="squid-game-ep m-0">Epsoide 4</h3>
+            <h5 class="squid-game-ep-title m-0">The Man With Umbrella</h5>
+          </a>
+          <a href="#" class="squid-game-carousel-a"><img src="assets/images/squid-game/ep-5.jpg" alt="movie image">
+            <h3 class="squid-game-ep m-0">Epsoide 5</h3>
+            <h5 class="squid-game-ep-title m-0">A Fair World</h5>
+          </a>
+          <a href="#" class="squid-game-carousel-a"><img src="assets/images/squid-game/ep-6.jpg" alt="movie image">
+            <h3 class="squid-game-ep m-0">Epsoide 6</h3>
+            <h5 class="squid-game-ep-title m-0">Gganbu</h5>
+          </a>
+          <a href="#" class="squid-game-carousel-a"><img src="assets/images/squid-game/ep-7.jpg" alt="movie img">
+            <h3 class="squid-game-ep m-0">Epsoide 7</h3>
+            <h5 class="squid-game-ep-title m-0">Front Man</h5>
+          </a>
+        </div>
+      </div>
+      <!-- character -->
+      <div class="heading-block center m-0 fadeInDown animated" data-animate="fadeInDown" data-delay="100">
+        <h2>character</h2>
+      </div>
+      <div id="oc-clients-full" class="owl-carousel image-carousel carousel-widget" data-margin="30" data-nav="false"
+        data-loop="true" data-autoplay="5000" data-pagi="false" data-items-xs="2" data-items-sm="3" data-items-md="4"
+        data-items-lg="5" data-items-xl="6">
+
+        <div class="grid-inner">
+          <div class="entry-image">
+            <a href="#">
+              <img src="assets/images/squid-game/ch-1.png" alt="">
+            </a>
+          </div>
+          <div class="entry-content">
+            <p>Lee Jung-jae</p>
+            <a href="#" class="more-link">Read More</a>
+          </div>
+        </div>
+
+        <div class="grid-inner">
+          <div class="entry-image">
+            <a href="#">
+              <img src="assets/images/squid-game/ch-2.png" alt="">
+            </a>
+          </div>
+          <div class="entry-content">
+            <p>Park Hae-soo</p>
+            <a href="#" class="more-link">Read More</a>
+          </div>
+        </div>
+
+        <div class="grid-inner">
+          <div class="entry-image">
+            <a href="#">
+              <img src="assets/images/squid-game/ch-3.png" alt="">
+            </a>
+          </div>
+          <div class="entry-content">
+            <p>Hoyeon</p>
+            <a href="#" class="more-link">Read More</a>
+          </div>
+        </div>
+
+        <div class="grid-inner">
+          <div class="entry-image">
+            <a href="#">
+              <img src="assets/images/squid-game/ch-4.png" alt="">
+            </a>
+          </div>
+          <div class="entry-content">
+            <p>Oh Yeong-su</p>
+            </p>
+            <a href="#" class="more-link">Read More</a>
+          </div>
+        </div>
+
+        <div class="grid-inner">
+          <div class="entry-image">
+            <a href="#">
+              <img src="assets/images/squid-game/ch-5.png" alt="">
+            </a>
+          </div>
+          <div class="entry-content">
+            <p>Wi Ha-joon</p>
+            </p>
+            <a href="#" class="more-link">Read More</a>
+          </div>
+        </div>
+        <div class="grid-inner">
+          <div class="entry-image">
+            <a href="#">
+              <img src="assets/images/squid-game/ch-6.png" alt="">
+            </a>
+          </div>
+          <div class="entry-content">
+            <p>Vivian Lu</p>
+            </p>
+            <a href="#" class="more-link">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Football -->
+  <section class="football-section mt-0">
+    <video autoplay muted loop id="football-video">
+      <source src="assets/video/UEFA Champions League Official Intro (Season 20-21).mp4" type="video/mp4">
+    </video>
+    <div class="football-content">
+      <div class="pt-3 px-5">
+        <div class="glass">
+          <a href="champ.html">
+            <img class="champ-logo m-0" data-animate="fadeIn" data-delay="100"
+              src="assets/images/football/champions-logo.png" alt="champ logo">
+          </a>
+        </div>
+        <h2 class="m-0">Watch the Champions League
+          <br>on your best cloud TV.</h2>
+        <h4 class="m-0">the hot semi final just started</h4>
+      </div><br>
+      <div class="carousel-container">
+        <div class="mb-0" data-animate="fadeInDown" data-delay="100">
+          <h4 class="mb-1 px-2">Next Matches</h4>
+        </div>
+        <div class="carousel-container">
+          <div class="row">
+            <div class="col-lg-5 col-sm-12 m-2">
+              <div class="card img-fluid inline-block" style="width:500px">
+                <img class="card-img-top" src="assets/images/football/bayern-left.jpg" alt="Card  image">
+                <div class="card-img-overlay">
+                  <h4 class="card-title">FCB / MAN</h4>
+                  <p class="card-text"><b>Apr 20 /2023 <br>10:00pm</b></p>
+                  <a href="#" class="btn btn-primary football-card-btn">Notify Me</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-5 col-sm-12 m-2">
+              <div class="card img-fluid inline-block" style="width:500px">
+                <img class="card-img-top" src="assets/images/football/real-left.jpg" alt="Card  image">
+                <div class="card-img-overlay">
+                  <h4 class="card-title">RMD / CHE</h4>
+                  <p class="card-text"><b>Apr 20 /2023 <br>10:00pm</b></p>
+                  <a href="#" class="btn btn-primary football-card-btn">Notify Me</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- why mhd tv+ -->
+  <section class="why-us m-0">
+    <div class="container">
+      <div class="monitor">
+        <!-- border -->
+        <div class="mb-0" data-animate="fadeInDown" data-delay="100">
+          <h1 class="mb-1 center">why mhmdTV+</h1>
+        </div>
+        <div id="whyMhmdSmallScreenBtn">
+          <div class="row">
+            <button class="col-12 col-md-6 btn confortable-advantage-btn">Confortable Advantage</button>
+            <button class="col-12 col-md-6 btn marketing-advantage-btn">Marketing Advantage</button>
+          </div>
+        </div>
+
+        <div id="whyMhmdBigScreenBtn">
+          <div class="text-center mt-3">
+            <div class="c2a-btn footer-c2a-btn mt-0">
+              <div class="btn-group btn-group-lg" role="group" aria-label="Call to action">
+                <a type="button" class="btn btn-default btn-sm active">Comfortable Advantage</a>
+                <span class="btn-circle btn-or">OR</span>
+                <a type="button" class="btn btn-default btn-sm">Marketing Advantage</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div id="confortable-advantage" class="mt-5">
+          <div class="row center justify-content-center">
+            <div class="col-12 col-md-6">
+              <!-- advantage 1 -->
+              <div>
+                <!--circle-->
+                <i class="fa-solid fa-mobile-notch fa-3x"></i>
+              </div>
+              <p>Available to all smart phone</p>
+            </div>
+            <div class="col-12 col-md-6">
+              <!-- advantage 2 -->
+              <div>
+                <!--circle-->
+                <i class="fa-solid fa-tv fa-3x"></i>
+              </div>
+              <p>Available in all smart TV</p>
+            </div>
+            <div class="col-12 col-md-6">
+              <!-- advantage 3 -->
+              <div>
+                <!--circle-->
+                <i class="fa-solid fa-download fa-3x"></i>
+              </div>
+              <p>All episodes downloadable</p>
+            </div>
+            <div class="col-12 col-md-6">
+              <!-- advantage 2 -->
+              <div>
+                <!--circle-->
+                <i class="fa-solid fa-language fa-3x"></i>
+              </div>
+              <p>50+ language on caption</p>
+            </div>
+          </div>
+        </div>
+
+        <div id="marketing-advantage" class="mt-5">
+          <div>
+            <img src="" alt="">
+            <p class="text-center">15+ partner</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Download app -->
+  <section class="download bg-dark center">
+    <div class="container-fluid">
+      <h2>Find Your Movie For Your <br>Best Knight.</h2>
+      <button type="button" class="btn btn-lg btn-dark download-button"><i class="fab fa-apple"></i> Download</button>
+      <button type="button" class="btn btn-lg btn-light download-button"><i class="fab fa-google-play"></i>
+        Download</button>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <footer class="center mt-3">
+    <img class="footer-logo m-0" src="assets/images/tv+.png" alt="logo">
+    <h1 class="m-0 ">Watch here and on the big screen</h1>
+    <p class="m-0 ">Find mtv+ on all the smart divices store,web and more</p>
+    <img class="smart-tv apple-tv-logo" src="assets/images/apple-tv-logo.svg" alt="smart tv logo">
+    <img class="smart-tv google-tv-logo" src="assets/images/google-tv-logo.png" alt="smart tv logo">
+    <img class="smart-tv" src="assets/images/SamsungTVLogo.png" alt="smart tv logo">
+    <img class="smart-tv" src="assets/images/sony-tv.svg" alt="smart tv logo">
+    <div class="footer bg-dark">
+      <div class="carousel-container">
+        <div class="row">
+          <div class="col-9">
+            <table>
+              <tr>
+                <td>
+                  <h3 class="m-0 footer-sub text-white">All Original</h3>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p class="m-0 footer-sub ">start watching with 7 days free. Or 2 month free with 1 year registration
+                  </p>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div class="col-3">
+            <button type="button" class="btn btn-outline-light footer-btn">Try Free</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="under-footer">
+      <p class="mt-2">Copyright &copy; 2023 Mohammad.All rights reserved.</p>
+      <ul class="m-0">
+        <li><a href="">Internet Service Terms</a></li>
+        <li><a href="">mtv+ & Privacy</a></li>
+        <li><a href="">Cookie Police</a></li>
+        <li><a href="">Support</a></li>
+      </ul>
+    </div>
+  </footer>
+  <!-- lamma tekbos 3al search bytla3 el <input type="text"> be nos el saf7a w wara fe backgroud nos
+        shafefe  
+  <div style="width: max-content; height: max-content; color: gray;"></div>
+  -->
+</body>
+<script src="assets/js/jquery.js"></script>
+<script src="assets/js/fontawsome/all.min.js"></script>
+<script src="assets/js/script.js"></script>
+<script src="assets/js/bootstrap.bundle.js"></script>
+<script src="assets/js/plugins.min.js"></script>
+<script src="assets/js/functions.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/owl.carousel.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+</html>

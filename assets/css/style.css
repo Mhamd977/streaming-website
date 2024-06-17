@@ -1,0 +1,683 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Merriweather:wght@300&family=PT+Serif:ital@1&family=Raleway:wght@200&family=Ubuntu:wght@300&display=swap');
+/* font-family: 'Cairo', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'PT Serif', serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+
+/* squid game font */
+@font-face {
+  font-family: 'squid-game';
+  src: url(../text-font/Game-Of-Squids.ttf);
+}
+
+html {
+  overflow-x: hidden;
+}
+
+
+
+
+/* navbar */
+.dropbtn {
+  background-color: rgba(255, 0, 0, 0) !important;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: #171a1fad;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.842);
+  z-index: 1;
+}
+
+.dropdown-content:first-child {
+  border-radius: 0px 10px 0px 0px;
+}
+
+.dropdown-content:last-child {
+  border-radius: 0px 0px 10px 10px;
+}
+
+.first-in-dropdown {
+  /*lamma na3mel hover*/
+  border-radius: 0px 10px 0px 0px;
+}
+
+.last-in-dropdown {
+  /*lamma na3mel hover*/
+  border-radius: 0px 0px 10px 10px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #353b48;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+.med-menu ul {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+
+.nav-item.med-menu-li.active {
+  font-weight: bold;
+}
+
+.med-menu ul li a {
+  color: #fff;
+}
+
+.med-menu ul li::before {
+  content: "|";
+  margin: 5px;
+}
+
+.med-menu ul li:first-child::before {
+  content: none;
+}
+
+/* searchbar */
+.searchbar {
+  margin-bottom: auto;
+  margin-top: auto;
+  height: 45px;
+  background-color: #353b48;
+  border-radius: 30px;
+  padding: 5px;
+}
+
+.search_input {
+  color: white;
+  border: 0;
+  outline: 0;
+  background: none;
+  width: 0;
+  caret-color: transparent;
+  line-height: 40px;
+  transition: width 0.4s linear;
+}
+
+.searchbar:hover>.search_input {
+  padding: 0 10px;
+  width: 250px;
+  caret-color: rgb(229, 255, 0);
+  transition: width 0.4s linear;
+}
+
+.searchbar:hover>.search_icon {
+  background: white;
+  color: #e74c3c;
+}
+
+.search_icon {
+  margin-top: 2px;
+  height: 30px;
+  width: 30px;
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: white;
+  text-decoration: none;
+}
+
+
+/* carousel */
+.carousel-container .carousel-row hr {
+  margin-top: o;
+}
+
+.carousel-item .carousel-description h1 {
+  color: #fff;
+}
+
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.carousel-description {
+  color: #fff;
+  width: 350px;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.carousel-description.TED {
+  position: absolute;
+  top: 65%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+}
+
+.movie-name.TED {
+  font-family: 'Merriweather', serif;
+}
+
+.carousel-description .description {
+  font-size: small;
+}
+
+.carousel-description .btn {
+  width: 350px;
+}
+
+.carousel-description .payment {
+  color: #ffffff;
+  font-size: x-small;
+  text-align: center;
+}
+
+/* /carousel */
+
+/* owl-carousel-section*/
+.carousel-container {
+  margin: 7px 2%;
+}
+
+#oc-clients-full img {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* #oc-clients-full .item:hover {} */
+
+/* Owl carousel */
+.carousel-row img {
+  border-radius: 10px;
+}
+
+.carousel-count {
+  padding: 0 10px;
+  height: 50px;
+}
+
+.carousel-count h1 {
+  display: inline-block;
+  width: 10%;
+}
+
+.carousel-count-description {
+  margin-top: 5px;
+  display: inline-block;
+  width: 80%;
+}
+
+.carousel-count-description .title {
+  color: #000000;
+  font-size: small;
+}
+
+.carousel-count-description .title-descripion {
+  color: gray;
+  font-size: x-small;
+}
+
+/* /Owl carousel */
+
+/* squid-game-video */
+.squid-game {
+  background-color: rgba(128, 128, 128, 0.432);
+  padding-bottom: 20px !important;
+  width: 100%;
+}
+
+.squid-game-tilte {
+  color: #ed1b76;
+  font-family: 'squid-game';
+}
+
+.squid-game-img-row {
+  position: absolute;
+  top: 1390px;
+  z-index: -10;
+}
+
+.squid-game-img-row-2 {
+  position: absolute;
+  top: 1900px;
+  z-index: -10;
+}
+
+.circle-img {
+  position: relative;
+  top: 170px;
+  left: 40px;
+  bottom: 40px;
+}
+
+.triangle-img {
+  position: relative;
+  top: 100px;
+  transform: rotate(10deg);
+}
+
+.square-img {
+  position: relative;
+  right: 30px;
+  transform: rotate(-11deg);
+}
+
+.circle-img-2 {
+  padding-left: 100px;
+}
+
+.square-img-2 {
+  position: relative;
+  right: 30px;
+  transform: rotate(14deg);
+  padding-left: 200px;
+}
+
+@media screen and (max-width: 770px) {
+  .squid-game-img-row {
+    margin-top: 140px;
+  }
+
+  .circle-img-2 {
+    display: none;
+  }
+
+  .square-img-2 {
+    display: none;
+  }
+}
+
+/* no need more */
+/* .circle-img {
+  position: absolute;
+  top: 1309px;
+  left: 960px;
+  z-index: -1;
+}
+
+.triangle-img {
+  position: absolute;
+  top: 1500px;
+  left: 460px;
+  z-index: -1;
+  transform: rotate(10deg);
+}
+
+.square-img {
+  position: absolute;
+  top: 1350px;
+  left: 10px;
+  z-index: -1;
+  transform: rotate(-5deg);
+} */
+
+/* @media screen and (min-width: 715) and (max-width: 1070px) {
+  .flex-container {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    z-index: -10;
+  }
+
+  .square-img {
+    position: static !important;
+  }
+
+  .triangle-img {
+    position: static !important;
+  }
+
+  .circle-img {
+    position: static !important;
+  }
+} */
+/**/
+.more-link {
+  color: #ed1b76 !important;
+}
+
+.more-link:hover {
+  border-bottom: 1px solid #ed1b76 !important;
+}
+
+.squid-game-video {
+  border-radius: 10px;
+  height: 380px;
+
+}
+
+.squid-game-img-poster {
+  width: 55%;
+  height: 85%;
+  margin-left: 25px;
+}
+
+@media screen and (max-width: 960px) {
+  .squid-game-img-poster {
+    width: 100%;
+    height: 70%;
+    margin-left: 20px;
+    margin-top: 90px;
+  }
+
+  h1.mb-1.squid-game-tilte {
+    position: relative;
+    top: 40px;
+    margin-bottom: 0 !important;
+  }
+
+  .mb-0.fadeInDown.animated {
+    height: 1px;
+  }
+}
+
+.squid-game-carousel-a img {
+  border-radius: 10px;
+}
+
+.squid-game-carousel-a .squid-game-ep {
+  text-align: left;
+  padding: 0 10px;
+}
+
+.squid-game-carousel-a .squid-game-ep-title {
+  text-align: left;
+  padding: 0 10px;
+}
+
+.squid-game-carousel-a:hover h3 {
+  text-decoration-line: underline;
+}
+
+/* football */
+.football-section {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  /* height: 700px; ****************************** */
+}
+
+.football-section video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1;
+}
+
+.football-section .football-content {
+  position: relative;
+  z-index: 1;
+}
+
+.football-content h2,
+h4 {
+  color: #fff !important;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.glass {
+  width: 50vh;
+  height: 200px;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 32px;
+  text-align: center;
+}
+
+.football-section .football-content .champ-logo {
+  aspect-ratio: 1 / 1;
+  height: 200px;
+  filter: drop-shadow(2px 2px 1px #fff);
+}
+
+.champ-logo:hover {
+  animation: shadow-rotate 3s infinite linear;
+}
+
+@keyframes shadow-rotate {
+  0% {
+    filter: drop-shadow(0px 0px 0px #fff);
+  }
+
+  50% {
+    filter: drop-shadow(0px 0px 20px #fff);
+  }
+
+  100% {
+    filter: drop-shadow(0px 0px 0px #fff);
+  }
+}
+
+.football-card-btn {
+  display: none;
+}
+
+.card:hover .football-card-btn {
+  display: inline;
+}
+
+/* download app */
+.big-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+.download .container-fluid h2 {
+  color: #fff;
+}
+
+/* /download app */
+
+
+/* ///////////////////////////////////////// */
+/* footer */
+.footer-logo {
+  display: inline !important;
+  width: 15%;
+  aspect-ratio: 3/2;
+  object-fit: contain;
+  padding-top: 20px;
+  position: relative;
+  top: 50%;
+}
+
+footer .smart-tv {
+  width: 18%;
+  aspect-ratio: 3/2;
+  object-fit: contain;
+}
+
+.smart-tv.google-tv-logo {
+  width: 24% !important;
+}
+
+.smart-tv.apple-tv-logo {
+  width: 13% !important;
+}
+
+footer p {
+  color: gray;
+}
+
+.footer {
+  height: 5em;
+}
+
+.footer-sub {
+  float: left;
+}
+
+.footer-sub p {
+  color: gray;
+}
+
+.footer-sub h3 {
+  padding-top: 1rem;
+}
+
+.footer .carousel-container .footer-btn {
+  position: absolute;
+  top: 38%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+footer ul li {
+  display: inline;
+  font-size: small;
+}
+
+footer ul li::before {
+  content: "|";
+  margin-right: 5px;
+}
+
+footer ul li:first-child::before {
+  content: none;
+  /* Remove the bar before the first item */
+}
+
+footer ul li a {
+  color: #353b48;
+}
+
+.under-footer p {
+  margin-bottom: 0 !important;
+  font-size: small;
+}
+
+/* why mhmd tv+ */
+.monitor {
+  margin: 10vh;
+  border: 7px solid #000000;
+  border-radius: 10px;
+}
+
+.confortable-advantage-btn.btn {
+  width: 50% !important;
+}
+
+.marketing-advantage-btn.btn {
+  width: 50% !important;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  color: #111e6c;
+  /* Try using a background image
+  background: url('images/frontPageBackground.jpg');*/
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: all 1s ease;
+  padding-top: 70px;
+}
+
+.main:before {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  /*background: #111e6c;*/
+  opacity: 0.2;
+  filter: alpha(opacity=90);
+}
+
+.main-text {
+  top: 20%;
+  left: auto;
+  right: auto;
+  position: relative;
+  color: #111e6c;
+}
+
+.btn-circle,
+#to-top {
+  border-radius: 50%;
+  background: #111e6c;
+  padding: 6px;
+  font-size: 14px;
+  /* border-radius: 50%; */
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  color: #fff;
+  text-align: center;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.c2a-btn {
+  margin: 48px auto 0;
+  margin: 4.8rem auto 0;
+}
+
+.btn-default {
+  color: #fff;
+  background-color: #111e6c;
+  border-color: #111e6c;
+  transition: all 1s ease;
+}
+
+.btn-group-lg>.btn,
+.btn-lg {
+  padding: 18px 28px;
+  font-size: 18px;
+  line-height: 1.3333333;
+  border-radius: 50px;
+}
+
+.btn-group .btn-or {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  z-index: 99;
+  box-shadow: 0;
+  border: 2px solid #fff;
+}
